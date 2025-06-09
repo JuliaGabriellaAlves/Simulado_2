@@ -1,0 +1,63 @@
+/* ministore/src/pages/Cadastro.css */
+
+.product-form-section {
+    padding: 40px 0;
+    flex-grow: 1;
+}
+
+.product-form-section h2 {
+    color: #007bff;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espaçamento entre os grupos de formulário (label + input) */
+}
+
+.form-group label {
+    display: block; /* Garante que o label ocupe uma linha inteira */
+    margin-bottom: 8px; /* Espaçamento entre o label e o input */
+    font-weight: bold; /* Texto do label em negrito */
+    color: #555; /* Cor de texto mais escura */
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%; /* Ocupa 100% da largura do contêiner */
+    padding: 12px; /* Espaçamento interno */
+    border: 1px solid #ddd; /* Borda cinza clara */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 1em; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus,
+.form-group textarea:focus {
+    outline: none; /* Remove o outline padrão do navegador no focus */
+    border-color: #007bff; /* Borda azul no focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra suave no focus */
+}
+
+.form-group textarea {
+    min-height: 100px; /* Altura mínima para o campo de texto */
+    resize: vertical; /* Permite que o usuário redimensione verticalmente */
+}
+
+.button-primary {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none; /* Remove borda padrão do botão */
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+    background-color: #0056b3;
+}

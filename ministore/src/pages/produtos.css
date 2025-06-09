@@ -1,0 +1,57 @@
+/* ministore/src/pages/Produtos.css */
+
+.product-list-section {
+    padding: 40px 0;
+    flex-grow: 1;
+}
+
+.product-list-section h2 {
+    color: #007bff;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.product-list-section p {
+    margin-bottom: 15px;
+}
+
+.product-list-items {
+    border: 1px solid #ddd; /* Borda ao redor da lista de itens */
+    border-radius: 8px; /* Cantos arredondados para o contêiner da lista */
+    overflow: hidden; /* Garante que os cantos arredondados sejam aplicados corretamente */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Sombra suave */
+}
+
+.product-list-item {
+    display: flex;
+    justify-content: space-between; /* Alinha o nome/preço à esquerda e o botão à direita */
+    align-items: center; /* Centraliza verticalmente os itens */
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee; /* Borda fina entre os itens */
+    background-color: white; /* Fundo branco para cada item */
+}
+
+.product-list-item:last-child {
+    border-bottom: none; /* Remove a borda do último item para melhor estética */
+}
+
+.product-list-item span {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.product-list-item a.text-link { /* Alterado de button.text-link para a.text-link */
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 15px;
+    text-decoration: underline; /* Sublinhado para parecer um link */
+    color: #007bff; /* Cor azul para o link "Ver detalhes" */
+    transition: color 0.3s ease;
+}
+
+.product-list-item a.text-link:hover {
+    color: #0056b3; /* Cor mais escura no hover */
+}

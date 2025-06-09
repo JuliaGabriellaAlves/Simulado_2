@@ -1,0 +1,36 @@
+/* ministore/src/pages/Detalhesproduto.css */
+
+.product-detail-section {
+    padding: 40px 0;
+    flex-grow: 1;
+}
+
+.product-detail-section h2 {
+    color: #007bff;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.product-detail-section p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.product-detail-section .button-secondary {
+    display: inline-block;
+    background-color: #6c757d; /* Cinza, como no layout */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Margem superior para separar do texto */
+}
+
+.product-detail-section .button-secondary:hover {
+    background-color: #5a6268; /* Cor mais escura no hover */
+}

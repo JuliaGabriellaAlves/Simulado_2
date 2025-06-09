@@ -1,0 +1,42 @@
+/* ministore/src/pages/Home.css */
+
+.home-section {
+    padding: 40px 0; /* Espaçamento interno vertical */
+    flex-grow: 1; /* Permite que esta seção ocupe o espaço restante disponível, empurrando o footer */
+}
+
+.home-section h2 {
+    color: #007bff; /* Cor azul para o título de boas-vindas */
+    font-size: 2em; /* Tamanho da fonte */
+    margin-bottom: 15px; /* Margem inferior */
+}
+
+.home-section p {
+    line-height: 1.6; /* Altura da linha para melhor leitura */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+.home-section .button-link {
+    display: inline-block; /* Permite aplicar padding e margem como um bloco, mas na mesma linha */
+    background-color: #007bff; /* Fundo azul */
+    color: white; /* Texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    text-decoration: none; /* Remove sublinhado */
+    margin-right: 15px; /* Margem à direita para separar do outro link */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.home-section .button-link:hover {
+    background-color: #0056b3; /* Cor mais escura no hover */
+}
+
+.home-section .text-link {
+    color: #007bff; /* Cor azul para o link de texto */
+    text-decoration: none; /* Remove sublinhado */
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+.home-section .text-link:hover {
+    color: #0056b3; /* Cor mais escura no hover */
+}
